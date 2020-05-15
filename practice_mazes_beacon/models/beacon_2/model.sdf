@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.4'>
-  <model name="beacon_0">
+  <model name="beacon_2">
 	<static>true</static>
           <link name='chassis_lower'>
             <pose>0 0 0.07 0 0 0</pose>
@@ -22,8 +22,8 @@
                 </cylinder>
               </geometry>
         	<material>
-          	  <ambient>0 0 1 1</ambient>
-          	  <diffuse>0 0 1 1</diffuse>
+          	  <ambient>0 1 1 1</ambient>
+          	  <diffuse>0 1 1 1</diffuse>
           	  <specular>0.1 0.1 0.1 1</specular>
          	  <emissive>0 0 0 0</emissive>
         	</material>
@@ -50,8 +50,8 @@
                 </cylinder>
               </geometry>
         	<material>
-          	  <ambient>0 1 0 1</ambient>
-          	  <diffuse>0 1 0 1</diffuse>
+          	  <ambient>1 0 0 1</ambient>
+          	  <diffuse>1 0 0 1</diffuse>
           	  <specular>0.1 0.1 0.1 1</specular>
          	  <emissive>0 0 0 0</emissive>
         	</material>
